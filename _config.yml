@@ -1,0 +1,14 @@
+# Site settings
+title: "Manage Complexity: System Logic"
+email: contact@system-logic.com
+description: > # this means to ignore newlines until "baseurl:"
+  System Logic is an independent research and consulting 
+  firm focusing on issues of risk and 
+  complexity.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.system-logic.com" # the base hostname & protocol for your site
+twitter_username: syslogictweets
+github_username:  clearf
+
+# Build settings
+markdown: kramdown
