@@ -1,0 +1,472 @@
+
+
+
+
+html, body {
+  height: 100%;
+  background-image: url(/assets/images/bg_maze.png); 
+  padding: 0;
+}
+
+#main-container{
+	position: relative; /*EW made container position relative for control of nav without js*/
+	background-color: rgba(255,255,255,0.45);
+	min-height: inherit;
+	overflow: auto;
+	padding: 20px 5%;
+	margin: 25px auto 0 auto;
+	max-width: 700px;
+}
+
+
+/* header */
+
+#sl-logo {
+	width: auto;
+	height: auto;
+	float: left;
+	padding-top: 0;
+}
+
+.row-fluid .logo {
+	width: 46%;
+	padding-bottom: 0;
+}
+
+.row-fluid .logo {
+	float: left;
+	display: inline;
+}
+
+
+/*Navigation*/
+
+.navWrapper {
+	display: block;
+	position: absolute;
+	top: 24px;
+	right: 6%;
+}
+
+.nav-tabs > li > a {
+	padding: 8px 18px 8px 0;
+	text-decoration: none;
+}
+
+.nav-tabs > li > a.last {
+	padding-right: 0;
+}
+
+.row-fluid .menuButton {
+	display: none;
+}
+
+.row-fluid h2 {
+	font-size: 24px;
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs > .active > a {
+	color: #9d261d;
+	background: none;
+	border: 1px solid transparent;
+	border-bottom-color: transparent;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > .active > a:hover {
+	border: 1px solid transparent;
+	outline: 0;
+	cursor: pointer;
+	background: none;
+}
+
+.nav > li > a:hover {
+	background: none;
+}
+
+
+/*
+.nav-tabs > li > a {
+	padding: 0 25px 8px 0;
+  	border: 0;
+  	border-radius: 0;
+}
+*/
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  color: #c63227;
+}
+
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: 1px solid transparent;
+  outline: 0;
+  color: #c63227;
+}
+
+
+.nav-tabs li#topOfPage {
+	display: none;
+}
+
+.row-fluid .menuButton {
+	display: none;	
+}
+
+
+/*content*/
+
+.row-fluid .pageIntro {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.row-fluid .first, .row-fluid .notFirst {
+	display: inline;
+	margin-bottom: 20px;
+}
+
+
+/*keeping original reference, but need to make text align left*/
+
+p {
+    margin: 20px 0;
+}
+
+p, .circle, .square {
+    font-family: Georgia,Times,serif;
+    font-size:16px;
+    line-height: 22px;
+}
+
+p.lead {
+    font-family: 'Helvetica Neue',Arial,Verdana,sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+p.caption {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Helvetica Neue',Arial,Verdana,sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+p.caption a {
+    color: #fff;
+}
+
+p.caption a:hover, p.caption a:focus {
+    color: #c63227;
+}
+
+.media-body p {
+    margin: 0;
+}
+
+.text-center {
+	text-align: left;
+}
+
+.text-left {
+	margin-top: 15px
+}
+
+ol {
+    width: 90%;
+}
+
+li {
+    margin-bottom: 11px;
+}
+
+ol .disc {
+    list-style-type: disc;
+}
+
+ol .circle {
+    list-style-type: circle;
+}
+
+ol .square {
+    list-style-type: square;
+}
+
+.row-fluid.text-center .span4.first h4 {
+	text-transform: uppercase;
+}
+
+.row-fluid.text-center .span4.notFirst h4 {
+	text-transform: uppercase;
+}
+
+hr.headerRule {
+  margin: 15px 0;
+  border: 1px solid #eee;
+  clear: both;
+}
+
+hr.sectionRule {
+	margin: 15px 0;
+  	border: 1px solid #993333;
+  	clear: both;
+}
+
+hr.navRule {
+	display: none;
+}
+
+a {
+color: #555;
+text-decoration: underline;
+}
+
+a:hover {
+color: #c63227;
+}
+
+.google-content p {
+	color: #000000;
+	font-size: 12pt;
+	font-family: "times";
+}
+
+.row-fluid .service-box {
+    border-bottom: 1pt solid #eee;
+    float: left;
+    margin-left: 3%;
+    width: 31.3333333333%;
+}
+
+.row-fluid .service-box.first {
+    margin-left: 0;
+}
+
+.row-fluid .service-box a:hover, .row-fluid .service-box a:focus {
+    text-decoration: none;
+}
+
+.overviewImage img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*footer*/
+
+div#footer {
+	font-size: 0.7em;
+	background-color: rgba(255,255,255,0.25);
+	overflow: auto;
+	text-align:	left;
+	width: 74%;
+	height: 50px;
+	padding: 0 5%;
+	margin: 20px auto;
+	max-width: 700px;
+}
+
+.span7.contact{
+	float: left;
+	width: 60%;
+	color: #000;
+	margin: 4px 0 0;
+}
+
+.footerContact {
+	color: #000;
+}
+
+.footerContact:hover {
+	color: #c63227;
+}
+
+.span5.social{
+	float: right;
+	width: 36%;
+	margin-top: 9px;
+}
+
+.twitter-button {
+	display: inline;
+	width: auto;
+	float: right;
+	margin-left: 5%;
+}
+
+.rss-follow {
+	display: inline;
+	float: right;
+}
+
+.row-fluid.footer {
+	display:inline;
+	width: auto;
+}
+
+.footerCopyright {
+	font: 12px/14px "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+/* EW eliminated from all screen sizes*/
+
+.btn {
+	display: none;
+}
+
+
+
+/*end of desktop styling*/
+
+ 
+@media only screen and (max-width: 980px) {  
+
+
+/*Navigation*/
+.navWrapper {
+	right: 5%;
+}
+} /*end of max width 980px media query*/
+
+
+
+
+@media only screen and (max-width: 680px) {  
+
+.navWrapper {
+	top: 25px;
+}
+
+.nav-tabs > li > a {
+    font-size: 14px;
+	padding-right: 8px;
+}
+
+} /*end of max-width 640px media query*/
+
+
+
+
+@media only screen and (max-width: 555px) {  
+
+
+/* nav */
+
+#primaryNav li {
+	width: 100%;
+	display: block;
+}
+
+.navWrapper {
+	position: static;
+}
+
+.row-fluid .menuButton {
+	float: right;
+	display: inline;
+	width: auto;
+	padding-top: 7px;	
+}
+
+.row-fluid h2 {
+	font: 18px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #bbb;
+	float: left;
+	margin: 5px 10px;
+	display: inline;
+}
+
+.nav-tabs {
+	border-bottom: none;
+	margin-bottom: 10px;
+	padding-top: 0;
+}
+
+
+.nav-tabs > li > a:hover {
+	border: 0;
+	outline: 0;
+}
+
+.nav > li > a:hover {
+	background-color: transparent;
+}
+
+.nav-tabs > li > a {
+    font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  border: 0;
+  border-radius: 0;
+}
+
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: 0px solid;
+  outline: 0;
+}
+
+.nav-tabs li#topOfPage {
+	display: block;
+}
+
+
+
+
+/* content */
+
+#page-content {
+	margin: 0;
+	padding: 0;
+}
+
+.row-fluid .pageIntro {
+	width: 100%;
+}
+
+.row-fluid .service-box {
+    width: 100%;
+}
+
+.row-fluid .service-box {
+    margin-left: 0;
+}
+
+hr {
+  margin: 3% 0;
+  border: 1px solid #eee;
+  clear: both;
+}
+
+hr.sectionRule {
+	margin: 3% 0;
+  	border: 1px solid #993333;
+  	clear: both;
+}
+
+hr.navRule {
+	display: block;
+	margin: 3% 0;
+  	border: 1px solid #993333;
+  	clear: both;
+}
+
+
+
+
+} /*end of max-width 555px media query*/
+
+
+
+
