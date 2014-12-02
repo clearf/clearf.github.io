@@ -131,6 +131,8 @@ html, body {
 }
 
 
+
+
 /*keeping original reference, but need to make text align left*/
 
 p {
@@ -255,6 +257,13 @@ color: #c63227;
 .overviewImage img{
 	width: 100%;
 	height: auto;
+}
+
+
+.thumbnail-img {
+  max-height: 100px;
+  width: auto;
+  vertical-align: bottom; 
 }
 
 
@@ -442,6 +451,8 @@ div#footer {
 .row-fluid .service-box {
     margin-left: 0;
 }
+
+
 
 hr {
   margin: 3% 0;

@@ -10,5 +10,16 @@ url: "http://www.system-logic.com" # the base hostname & protocol for your site
 twitter_username: syslogictweets
 github_username:  clearf
 
+# Post defaults:
+defaults: 
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "commentary"
+      published: "false"
+
 # Build settings
 markdown: kramdown
