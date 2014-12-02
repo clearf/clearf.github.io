@@ -1,0 +1,44 @@
+---
+layout: page
+title: On Complexity
+---
+
+<div class="home">
+
+  <div class="pageIntro"> <!-- EW added class pageIntro, removed span10 -->
+      <div class="jumbotron">
+        <p class="lead">Posts detailing our approach to risk and complexity.</p>
+      </div>
+  </div>
+
+  <hr class="sectionRule">
+
+  {% for article in site.categories.commentary %}
+
+  <div class="row-fluid"> 
+    <div class="span8 whitepaper"> 
+          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}
+          {% if article.subtitle %}
+            : {{article.subtitle}} 
+          {% endif %}
+          </a>
+    </div>
+  {% if article.pdf_path %}
+  <div class="span4"> 
+      <a href="{{ article.pdf_path | prepend: site.baseurl }}"
+        >[pdf]</a>
+  </div>
+  {% endif %}
+
+  {% if article.description %}
+  <div class="row-fluid"> 
+    <div class="span12" <small=""> 
+        {{ article.description }}
+     </div>
+   </div>
+   {% endif %}
+</div> 
+    
+{% endfor %}
+
+</div>

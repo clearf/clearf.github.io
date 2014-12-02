@@ -1,7 +1,7 @@
 
   <hr class="navRule"> <!-- EW added class navRule -->
 
-  {% assign page_titles = "Overview|Services|Team|Research|Blog|Contact" | split: "|" %}
+  {% assign page_titles = "Overview|Services|Team|White Papers|Blog|Contact" | split: "|" %}
 
   <div class="navWrapper"> <!--EW removed "span12", added class "navWrapper"-->
     <div id="primaryNav"> 
@@ -9,17 +9,12 @@
          {% for node in page_titles %}
           {% assign page_filename = node | downcase | replace: ' ', '_' %}
          {% if node == page.title %}
-           {% assign css_class="class='active'" %}
+           {% assign css_class="active" %}
          {% else %} 
            {% assign css_class="" %}
          {% endif %}
-
-         <li id="{{page_filename}}-nav" {{css_class}}>
-         <a href="/{{page_filename}}.html" 
-        {% if forloop.last %}
-           class="last"
-        {% endif %}
-        >{{node}}</a>
+         <li id="{{page_filename}}-nav" class="{{css_class}}">
+           <a href="{{page_filename}}.html">{{node}}</a>
          </li>
          {% endfor %} 
         <li id="topOfPage"> <!--EW added id "topOfPage"-->

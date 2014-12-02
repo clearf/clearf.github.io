@@ -14,11 +14,19 @@ github_username:  clearf
 defaults: 
   -
     scope: 
-      path: ""
+      path: "commentary"
       type: "posts"
     values:
       layout: "post"
       category: "commentary"
+      published: "false"
+  -
+    scope: 
+      path: "research"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "research"
       published: "false"
 
 # Build settings
