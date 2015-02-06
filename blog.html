@@ -17,10 +17,8 @@ title: On Complexity
 
   <div class="row-fluid"> 
     <div class="span8 whitepaper"> 
-          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}
-          {% if article.subtitle %}
-            : {{article.subtitle}} 
-          {% endif %}
+          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">
+          {{ article.title }}
           </a>
     </div>
   {% if article.pdf_path %}

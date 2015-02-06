@@ -1,7 +1,3 @@
-
-
-
-
 html, body {
   height: 100%;
   background-image: url(/assets/images/bg_maze.png); 
@@ -233,11 +229,19 @@ a:hover {
 color: #c63227;
 }
 
-.google-content p {
+.post-content p {
 	color: #000000;
 	font-size: 12pt;
 	font-family: "times";
 }
+
+.post-content img {
+    float:right; 
+    max-width: 350px;
+    margin-left:25px; 
+    margin-bottom: 10px
+}
+
 
 .row-fluid .service-box {
     border-bottom: 1pt solid #eee;
@@ -562,3 +566,29 @@ hr.navRule {
 }	
 
 
+/* Tags */
+.tags-list {
+  list-style-type: none;
+  margin-left: 0;
+  font-size: 14px;
+}
+
+.tags-list li {
+  display: inline;
+}
+
+.tags-list li:after {
+  content: ", ";
+}
+
+.tags-list li:first-child:before {
+  content: "(";
+}
+
+.tags-list li:last-child:after {
+  content: ")";
+}
+
+#first-set-tags {
+  font-size: 16px;
+}
