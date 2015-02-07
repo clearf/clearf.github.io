@@ -8,13 +8,17 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
    <!-- Bootstrap styles -->
   <link href="/assets/css/bootstrap.css?body=1" rel="stylesheet" type="text/css" media="all">
    <!-- Custom styles -->
+  {% for css in page.css %}
+    <link rel="stylesheet" href="/assets/css/{{ css }}">
+  {% endfor %}
   <link href="/assets/css/swayspace.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+  
 
   <script src="/assets/js/jquery-1.11.1.js"></script>
   <script src="/assets/js/bootstrap.js"></script>
