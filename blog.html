@@ -3,7 +3,7 @@ layout: page
 title: On Complexity
 ---
 
-<div class="home">
+<div class="blog-list">
 
   <div class="pageIntro"> <!-- EW added class pageIntro, removed span10 -->
       <div class="jumbotron">
@@ -15,27 +15,55 @@ title: On Complexity
 
   {% for article in site.categories.commentary %}
 
-  <div class="row-fluid"> 
-    <div class="span8 whitepaper"> 
-          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">
-          {{ article.title }}
-          </a>
-    </div>
-  {% if article.pdf_path %}
-  <div class="span4"> 
-      <a href="{{ article.pdf_path | prepend: site.baseurl }}"
-        >[pdf]</a>
-  </div>
-  {% endif %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-  {% if article.description %}
-  <div class="row-fluid"> 
-    <div class="span12" <small=""> 
-        {{ article.description }}
+  {% if forloop.index0 == 0 %}
+    <div class="media"> 
+      <div class='media-body'>
+        <h4 class='media-heading'>
+          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}"> 
+            {{article.title}} 
+          </a>
+        </h4>
+        <p style='margin-bottom:0'>
+        By {{article.author}}
+        </p> 
+        <p > 
+        {% assign images = article.content | split:"<img " %}
+        {% if images[1] contains 'src' %}
+          {% assign html = images[1] | split:">" | first %}
+          <img {{ html }} />
+        {% endif %}
+        
+          {{ article.content | truncatewords: 55, "" | strip_html }}
+        </p> 
+      </div>
+    </div>
+
+  {% else %}
+    {% if thecycle == 'even' %}
+      <div class="row-fluid"> 
+    {% endif %}
+        <div class="span6 article-list"> 
+              <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">
+              {{ article.title }}
+              </a>
+
+    <div class="row-fluid"> 
+      <div class="span12"> 
+        {% if article.description %}
+          {{ article.description }}
+        {% else %}
+          {{ article.content | truncatewords: 30, " ..." | strip_html }}
+        {% endif %}
+       </div>
      </div>
-   </div>
-   {% endif %}
-</div> 
+    </div>
+
+   {% if thecycle == 'odd' %}
+  </div> 
+    {% endif %}
+  {% endif %} 
     
 {% endfor %}
 
