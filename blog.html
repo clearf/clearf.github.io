@@ -3,7 +3,7 @@ layout: page
 title: On Complexity
 ---
 
-<div class="blog-list">
+<div class="article-list">
 
   <div class="pageIntro"> <!-- EW added class pageIntro, removed span10 -->
       <div class="jumbotron">
@@ -19,23 +19,29 @@ title: On Complexity
 
   {% if forloop.index0 == 0 %}
     <div class="media"> 
+      {% assign images = article.content | split:"<img " %}
+      {% if images[1] contains 'src' %}
+        {% assign html = images[1] | split:">" | first %}
+        <a class="article-link" href="{{ article.url | prepend: site.baseurl }}"> 
+          <img {{ html }} />
+        </a>
+      {% endif %}
       <div class='media-body'>
         <h4 class='media-heading'>
           <a class="article-link" href="{{ article.url | prepend: site.baseurl }}"> 
             {{article.title}} 
+            {% if article.subtitle %}: <br/> <small> {{ article.subtitle }} </small> {% endif %} 
           </a>
         </h4>
         <p style='margin-bottom:0'>
         By {{article.author}}
         </p> 
-        <p > 
-        {% assign images = article.content | split:"<img " %}
-        {% if images[1] contains 'src' %}
-          {% assign html = images[1] | split:">" | first %}
-          <img {{ html }} />
-        {% endif %}
+        <p> 
         
           {{ article.content | truncatewords: 55, "" | strip_html }}
+          <small> <a href="{{ article.url | prepend: site.baseurl }}">
+              ... read more
+          </a> </small>
         </p> 
       </div>
     </div>
@@ -44,9 +50,10 @@ title: On Complexity
     {% if thecycle == 'even' %}
       <div class="row-fluid"> 
     {% endif %}
-        <div class="span6 article-list"> 
+        <div class="span6 article-summary"> 
               <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">
               {{ article.title }}
+              {% if article.subtitle %}<br/> <small> {{ article.subtitle }} </small> {% endif %} 
               </a>
 
     <div class="row-fluid"> 
@@ -54,7 +61,11 @@ title: On Complexity
         {% if article.description %}
           {{ article.description }}
         {% else %}
-          {{ article.content | truncatewords: 30, " ..." | strip_html }}
+          {{ article.content | truncatewords: 30, "" | strip_html }}
+          <small> <a class="article-link" 
+                  href="{{ article.url | prepend: site.baseurl }}">
+              ... read more
+          </a> </small>
         {% endif %}
        </div>
      </div>

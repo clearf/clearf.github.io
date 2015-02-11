@@ -3,7 +3,6 @@ title: "Failure and Punishment"
 layout: post
 author: "System Logic Staff" 
 tags: [complexity,technology] 
-description: In complex systems, when is punishment appropriate and when does it make things worse?
 permalink: 
 ---
 

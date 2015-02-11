@@ -1,7 +1,7 @@
 ---
 layout: research
 title:  "Black Swan in the Server Room"
-subtite: "Avoiding Disaster in Disaster Planning"
+subtitle: "Avoiding Disaster in Disaster Planning"
 description: "Today’s enterprise depends on technology. We outline a unique approach to the systemic and organizational componetns of robust IT design." 
 pdf_path: "https://s3.amazonaws.com/content.system-logic.com/black_swan_in_the_server_room.pdf"
 category: research
@@ -13,16 +13,7 @@ css:
 
 <div class="whitepaper"> 
 
-<div class="page-header">
-  {% if page.pdf_path %}
-  <small>  
-    <a class="pull-right" href="{{page.pdf_path}}">[pdf version]</a> <br/>
-  </small> 
-  {% endif %}
-
-  <h1 class="title">{{page.title}}</h1>
-  <h2 class="subtitle">Avoiding Disaster in Disaster Planning</h2> 
-</div>
+  {% include research_title.html %}
 
 <h1>Executive Summary</h1>
 

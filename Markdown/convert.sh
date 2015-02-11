@@ -9,10 +9,10 @@ JEKYLL_ROOT="/Users/clearf/Documents/repos/system-logic-jekyll"
 cp ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*.md ${JEKYLL_ROOT}/Markdown
 cp -r ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*_images ${JEKYLL_ROOT}/assets/images/
 
-
-for file in *.md
-
-do
+for file in *.md; do
+  if [ ! -f "$file" ]; then
+    continue; 
+  fi
   header=$(head -n 1 "$file")
 
   # If there is no header, then continue
@@ -27,7 +27,6 @@ do
   tags=$( echo $header | awk -F '|' '{print $4}' | sed 's/, */,/g')
 
   newfile="$date-$file"
-  echo $date-"$file"
 
   mv "$file" "$newfile"
   file="$newfile"
@@ -53,8 +52,11 @@ permalink: ' \
     subtitle: '"\"$subtitle\"" "$newfile"
   fi
 
-  mv $newfile ${JEKYLL_ROOT}/_posts/commentary/
+  postfile=${JEKYLL_ROOT}/_posts/commentary/$newfile 
+  if [ $newfile -nt $postfile ]; then  # || [! -f $postfile ]; then 
+    echo "Posting $newfile"
+    cp $newfile $postfile
+  fi
 done
-
 
 IFS=$SAVEIFS

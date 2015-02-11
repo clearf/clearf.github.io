@@ -65,6 +65,10 @@ html, body {
 	border-bottom: none;
 }
 
+.nav-tabs > li > a { 
+  color: #555;
+}
+
 .nav-tabs > .active > a {
 	color: #9d261d;
 	background: none;
@@ -230,8 +234,8 @@ hr.navRule {
 }
 
 a {
-color: #555;
-text-decoration: underline;
+  color: #993333;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -493,18 +497,39 @@ hr.navRule {
 
 
 /* Blog */
-.blog-list .article-list { 
+.article-list .article-summary {
   padding-top: 15px; 
 }
 
-.blog-list .article-list img { 
-  display: none;
+.article-list > .media img {
+  max-width: 25%;
+  float:left; 
+  padding-right: 2%;
 }
 
-.blog-list img {
-  max-width: 25%;
-  float:right; 
+.article-summary  {
+  padding-top: 0px; 
+  padding-bottom: 15px; 
 }
+
+/* Title within summaries */
+.article-summary h4 {
+  vertical-align: top;
+  padding: 0px ; 
+  margin: 0px; 
+}
+
+.article-summary h5  {
+  vertical-align: top;
+  padding: 5px 0px 5px 5%; 
+  margin: 0px; 
+}
+
+.article-summary .article-description {
+  vertical-align: top;
+  
+}
+
 
 /* Tags */
 .tags-list {
