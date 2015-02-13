@@ -1,13 +1,18 @@
-<div class="page-header">
+<div id="research-header" class="research page-header">
+  <div class="row-fluid">
+    <div class="span10"> 
+      <h1 class="title">{{page.title}}</h1>
+
+      {% if page.subtitle %}
+        <h2 class="subtitle">{{page.subtitle}}</h2>
+      {% endif %}
+    </div>
   {% if page.pdf_path %}
-  <small>  
-    <a class="pull-right" href="{{page.pdf_path}}">[pdf version]</a> <br/>
-  </small> 
+    <div class="span2">
+      <small>  
+        <a class="pull-right" href="{{page.pdf_path}}">[pdf version]</a> <br/>
+      </small> 
+    </div>
   {% endif %}
-
-  <h1 class="title">{{page.title}}</h1>
-
-  {% if page.subtitle %}
-    <h2 class="subtitle">{{page.subtitle}}</h2>
-  {% endif %}
+  </div>
 </div>

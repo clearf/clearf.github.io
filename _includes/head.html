@@ -14,8 +14,14 @@
   <link href="/assets/css/bootstrap.css?body=1" rel="stylesheet" type="text/css" media="all">
    <!-- Custom styles -->
   {% for css in page.css %}
-    <link rel="stylesheet" href="/assets/css/{{ css }}">
+  <link rel="stylesheet" href="/assets/css/{{ css }}">
   {% endfor %}
+
+  {% if page.categories contains "research" %}
+  <link rel="stylesheet" href="/assets/css/research.css">
+  {% endif %}
+
+
   <link href="/assets/css/swayspace.css?body=1" rel="stylesheet" type="text/css" media="all">
 
   

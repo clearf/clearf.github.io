@@ -1,4 +1,3 @@
-<div class="article-summary">
   <div class="row-fluid"> 
     <div class="span8"> 
           <h4> 
@@ -11,6 +10,11 @@
               {{ article.subtitle }}
             </a>
         </h5>
+        {% endif %}
+        {% if article.author %}
+          <p class="author">
+          <small> by {{ article.author }} </small>
+          </p>
         {% endif %} 
     </div>
 
@@ -32,4 +36,3 @@
         {% endif %}
        </div>
      </div>
-</div> 

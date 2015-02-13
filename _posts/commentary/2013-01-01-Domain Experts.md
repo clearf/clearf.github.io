@@ -4,6 +4,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [web copy] 
 permalink: 
+published: false
 ---
 
 **Benjamin Berman** served as an investigator at the National Transportation Safety Board from 1990 to 2001, ultimately as the Chief of the Major Investigations Division. He is currently an airline Captain for a major U.S. flag carrier and a researcher for San Jose State University at the NASA Ames Research Center, where he studies and writes about the role of human factors in airline safety, including the effects of human cognitive vulnerabilities in major airline accidents (see, for example, [The Limits of Expertise: Rethinking Pilot Error and the Causes of Airline Accidents](http://www.amazon.com/gp/product/0754649652/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0754649652&linkCode=as2&tag=systlogi-20)). He holds an A.B. in economics from Harvard College.

@@ -6,8 +6,8 @@ IFS=$(echo -en "\n\b")
 JEKYLL_ROOT="/Users/clearf/Documents/repos/system-logic-jekyll"
 
 # Sync files from google drive
-cp ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*.md ${JEKYLL_ROOT}/Markdown
-cp -r ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*_images ${JEKYLL_ROOT}/assets/images/
+cp -p ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*.md ${JEKYLL_ROOT}/Markdown
+cp -prf ~/Google\ Drive/System-Logic\ \(shared\)/Website/published/Markdown/*_images ${JEKYLL_ROOT}/assets/images/
 
 for file in *.md; do
   if [ ! -f "$file" ]; then
@@ -30,6 +30,10 @@ for file in *.md; do
 
   mv "$file" "$newfile"
   file="$newfile"
+  postfile=${JEKYLL_ROOT}/_posts/commentary/$newfile 
+  if [ ! $newfile -nt $postfile ]; then  # || [! -f $postfile ]; then 
+    continue;
+  fi
 
 sed -i '' -e 1d \
 -e '2i\
@@ -52,11 +56,8 @@ permalink: ' \
     subtitle: '"\"$subtitle\"" "$newfile"
   fi
 
-  postfile=${JEKYLL_ROOT}/_posts/commentary/$newfile 
-  if [ $newfile -nt $postfile ]; then  # || [! -f $postfile ]; then 
-    echo "Posting $newfile"
-    cp $newfile $postfile
-  fi
+  echo "Posting $newfile"
+  cp $newfile $postfile
 done
 
 IFS=$SAVEIFS

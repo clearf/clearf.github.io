@@ -13,9 +13,11 @@ layout: page
 
   <hr class="sectionRule">
 
-  {% for article in site.categories.research %}
-    <div class="article-summary">
-      {% include article.html article=article %}
-    </div> 
-  {% endfor %}
+  <div class="article-list">
+    {% for article in site.categories.research %}
+      <div class="article-summary">
+        {% include research_blurb.html article=article %}
+      </div> 
+    {% endfor %}
+  </div> 
 

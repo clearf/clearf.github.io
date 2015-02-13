@@ -244,17 +244,14 @@ color: #c63227;
 
 .post-content p {
 	color: #000000;
-	font-size: 12pt;
-	font-family: "times";
 }
 
-.post-content img {
+.post-content img, img.research-header {
     float:right; 
-    max-width: 350px;
-    margin-left:25px; 
-    margin-bottom: 10px
+    max-width: 40%;
+    margin-left: 5%; 
+    margin-bottom: 2%;
 }
-
 
 .row-fluid .service-box {
     border-bottom: 1pt solid #eee;
@@ -491,6 +488,9 @@ hr.navRule {
 }
 
 
+.article-list a img {
+  display: none; 
+}
 
 
 } /*end of max-width 555px media query*/
@@ -498,36 +498,37 @@ hr.navRule {
 
 /* Blog */
 .article-list .article-summary {
-  padding-top: 15px; 
+  padding: 5px 0px 5px 0px; 
 }
 
-.article-list > .media img {
-  max-width: 25%;
-  float:left; 
-  padding-right: 2%;
+.article-list .post-footer {;
+  vertical-align: bottom;
 }
 
-.article-summary  {
-  padding-top: 0px; 
-  padding-bottom: 15px; 
+.article-list p.author { 
+  margin: 2px auto 2px auto;
+} 
+
+.article-list {
+  padding-top: 2px; 
+  padding-bottom: 2px; 
 }
 
 /* Title within summaries */
-.article-summary h4 {
+.article-list h4 {
   vertical-align: top;
-  padding: 0px ; 
-  margin: 0px; 
+  margin: 0px 0px 5px 0px ;
+  padding: 0px; 
 }
 
-.article-summary h5  {
+.article-list h5  {
   vertical-align: top;
-  padding: 5px 0px 5px 5%; 
-  margin: 0px; 
+  margin: 2px 0px 3px 5%; 
+  padding: 0px; 
 }
 
-.article-summary .article-description {
-  vertical-align: top;
-  
+.article-list hr {
+  margin: 15px 0px 15px 0px;
 }
 
 

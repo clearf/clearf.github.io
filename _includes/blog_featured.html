@@ -1,0 +1,39 @@
+<div class="row-fluid">
+    <div class="span6">
+          <h4> 
+            <a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}{% if article.subtitle %}:{% endif %}
+          </a>
+        </h4> 
+        {% if article.subtitle %}
+        <h5>
+            <a href="{{ article.url | prepend: site.baseurl }}">
+              {{ article.subtitle }}
+            </a>
+        </h5>
+        {% endif %}
+      <p class="author">
+      <small> By {{article.author | truncate: 50}} </small>
+      </p> 
+       {% if article.description %}
+          {{ article.description }}
+       {% else %}
+         {{ article.content | truncatewords: 25, " ..." | strip_html }}
+       {% endif %}
+        <small> 
+          <br/> <a href="{{ article.url | prepend: site.baseurl }}">>more</a> 
+        </small>
+        <p class="post-footer"> 
+           {{ article.date | date: "%b %-d, %Y" }}
+        </p>
+    </div>
+    <div class="span6">
+    {% assign images = article.content | split:"<img " %}
+    {% if images[1] contains 'src' %}
+      {% assign html = images[1] | split:">" | first %}
+      <a href="{{ article.url | prepend: site.baseurl }}"> 
+        <img class="media-object" {{ html }} />
+      </a>
+    {% endif %}
+    </div>
+</div>
+

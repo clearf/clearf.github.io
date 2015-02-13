@@ -6,7 +6,7 @@ tags: [complexity,technology]
 permalink: 
 ---
 
-![image alt text](/assets/images/Failure and Punishment_images/image_0.png)
+![image alt text](/assets/images/Failure and Punishment_images/image_0.jpg)
 
 The latest installment of Energy Metro Desk features an article, titled "[Failure and Punishment,](https://s3.amazonaws.com/content.system-logic.com/Failure-and-punish-MetroDesk012315.pdf)" in which [Cadwalader](http://www.cadwalader.com/) partner [Steven Lofchie](http://www.cadwalader.com/professionals/steven-lofchie) and [System Logic](http://www.system-logic.com/) principal [Chris Clearfield](http://www.system-logic.com/team) discuss whether punishment works as a deterrent to failure in complex systems such as electronic markets.
 

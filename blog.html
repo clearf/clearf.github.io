@@ -2,78 +2,27 @@
 layout: page
 title: On Complexity
 ---
-
-<div class="article-list">
-
-  <div class="pageIntro"> <!-- EW added class pageIntro, removed span10 -->
-      <div class="jumbotron">
-        <p class="lead">Posts detailing our approach to risk and complexity.</p>
-      </div>
-  </div>
+<div class="pageIntro"> <!-- EW added class pageIntro, removed span10 -->
+    <div class="jumbotron">
+      <p class="lead">Posts detailing our approach to risk and complexity.</p>
+    </div>
+</div>
 
   <hr class="sectionRule">
 
+<div class="article-list">
   {% for article in site.categories.commentary %}
 
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-
   {% if forloop.index0 == 0 %}
-    <div class="media"> 
-      {% assign images = article.content | split:"<img " %}
-      {% if images[1] contains 'src' %}
-        {% assign html = images[1] | split:">" | first %}
-        <a class="article-link" href="{{ article.url | prepend: site.baseurl }}"> 
-          <img {{ html }} />
-        </a>
-      {% endif %}
-      <div class='media-body'>
-        <h4 class='media-heading'>
-          <a class="article-link" href="{{ article.url | prepend: site.baseurl }}"> 
-            {{article.title}} 
-            {% if article.subtitle %}: <br/> <small> {{ article.subtitle }} </small> {% endif %} 
-          </a>
-        </h4>
-        <p style='margin-bottom:0'>
-        By {{article.author}}
-        </p> 
-        <p> 
-        
-          {{ article.content | truncatewords: 55, "" | strip_html }}
-          <small> <a href="{{ article.url | prepend: site.baseurl }}">
-              ... read more
-          </a> </small>
-        </p> 
-      </div>
-    </div>
-
+  <div class="article-featured">
+      {% include blog_featured.html article=article %}
+  </div>
+  <hr/> 
   {% else %}
-    {% if thecycle == 'even' %}
-      <div class="row-fluid"> 
-    {% endif %}
-        <div class="span6 article-summary"> 
-              <a class="article-link" href="{{ article.url | prepend: site.baseurl }}">
-              {{ article.title }}
-              {% if article.subtitle %}<br/> <small> {{ article.subtitle }} </small> {% endif %} 
-              </a>
-
-    <div class="row-fluid"> 
-      <div class="span12"> 
-        {% if article.description %}
-          {{ article.description }}
-        {% else %}
-          {{ article.content | truncatewords: 30, "" | strip_html }}
-          <small> <a class="article-link" 
-                  href="{{ article.url | prepend: site.baseurl }}">
-              ... read more
-          </a> </small>
-        {% endif %}
-       </div>
-     </div>
-    </div>
-
-   {% if thecycle == 'odd' %}
+  <div class="article-featured article-summary">
+      {% include blog_featured.html article=article %}
   </div> 
-    {% endif %}
+  <hr/>
   {% endif %} 
     
 {% endfor %}

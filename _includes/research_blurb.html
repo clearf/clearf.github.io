@@ -1,0 +1,45 @@
+  <div class="row-fluid"> 
+    <div class="span8"> 
+          <h4> 
+            <a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}{% if article.subtitle %}:{% endif %}
+          </a>
+        </h4> 
+        {% if article.subtitle %}
+        <h5>
+            <a href="{{ article.url | prepend: site.baseurl }}">
+              {{ article.subtitle }}
+            </a>
+        </h5>
+        {% if article.author %}
+          <p class="author">
+          <small> by {{ article.author }} </small>
+          </p>
+        {% endif %}
+          
+        {% endif %} 
+    </div>
+
+  {% if article.pdf_path %}
+  <div class="span3 offset1"> 
+      <a href="{{ article.pdf_path | prepend: site.baseurl }}"
+        >[pdf]</a>
+  </div>
+  {% endif %}
+  </div>
+
+
+    <div class="row-fluid"> 
+      <div class="span9 article-description"> 
+        {% if article.description %}
+          {{ article.description }}
+        {% else %}
+          {% assign content = article.content | split:"<hr " %}
+          {% if descriptions[1] %}
+            {% assign body = descriptions[1] %}
+          {% else %}
+            {% assign body = article.content %}
+          {% endif %}
+          {{ body | truncatewords: 50, " ..." | strip_html }}
+        {% endif %}
+       </div>
+     </div>
