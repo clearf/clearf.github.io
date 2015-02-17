@@ -181,6 +181,10 @@ p.caption a:hover, p.caption a:focus {
     margin: 0;
 }
 
+.media > a > img  {
+    padding-top: 20px;
+}
+
 .text-center {
 	text-align: left;
 }
