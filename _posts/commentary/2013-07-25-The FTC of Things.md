@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [cybersecurity,skepticism] 
 permalink: 
+redirect_from: "/commentary/posts/Why%20The%20FTC%20Can%E2%80%99t%20Regulate%20The%20Internet%20Of%20Things1s3G/"
 ---
 
 ![image alt text](/assets/images/The FTC of Things_images/image_0.jpg)
