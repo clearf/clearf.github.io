@@ -5,6 +5,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [systemic risk,bias,skepticism] 
 permalink: 
+redirect_from: "/commentary/posts/Risk%2C%20Biases%2C%20and%20Groupthink%20in%20US%C2%A0Banks%20and%20Beyond%3A%20An%20Interview%20with%20John%20Almandoz%20%28IESE%20Business%20School%291yyi"
 ---
 
 ![image alt text](/assets/images/Almandoz Interview_images/image_0.jpg) 
