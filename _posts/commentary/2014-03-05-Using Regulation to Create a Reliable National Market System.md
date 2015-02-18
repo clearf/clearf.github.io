@@ -4,6 +4,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [complexity,technology] 
 permalink: 
+published: false
 ---
 
 ![image alt text](/assets/images/Using Regulation to Create a Reliable National Market System_images/image_0.png)
