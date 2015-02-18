@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [dynamics,coupling,criticality] 
 permalink: 
+redirect_from: "/commentary/posts/Dinosaurs and Risk Management177t/"
 ---
 
 ![image alt text](/assets/images/The Risk Management of Jurassic Park_images/image_0.png)

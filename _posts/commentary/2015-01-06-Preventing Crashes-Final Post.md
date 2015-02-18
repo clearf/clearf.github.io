@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield, András Tilcsik, and Benjamin Berman" 
 tags: [complexity,coupling,regulation] 
 permalink: 
+redirect_from: "/commentary/posts/Preventing%20Crashes: Lessons%20for%20the%20SEC%20from%20the%20Airline%20Industry1Ycg/"
 ---
 
 ![image alt text](/assets/images/Preventing Crashes-Final Post_images/image_0.jpg)

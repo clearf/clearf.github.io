@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [cybersecurity,systemic risk] 
 permalink: 
+redirect_from: "/commentary/posts/Finance%20Industry%20Grapples%20with%20Cyber%20Threats174S/"
 ---
 
 ![image alt text](/assets/images/Financial Cyber Threats_images/image_0.jpg)
@@ -32,7 +33,7 @@ These real-world pressures highlight the importance of realistic simulations in 
 
 So where does this leave us? Perfect security will never be achieved, but a successful approach to protecting critical financial infrastructure from systemic threats will be grounded in a skeptical mindset that acknowledges the inherent systemic vulnerabilities and that practices responses to real-time incidents in a way that doesn’t depend on idealized, best-case responses.  
 
-*[Chris Clearfield](http://www.system-logic.com/team/) is a principal at [System Logic](http://www.system-logic.com/commentary/), an **independent** consulting firm that helps organizations manage issues of risk and complexity. Follow him on [Twitter](https://twitter.com/syslogictweets), and check out his [other writings](http://www.system-logic.com/commentary/).*  
+*[Chris Clearfield](http://www.system-logic.com/team/) is a principal at [System Logic](http://www.system-logic.com/commentary/), an independent consulting firm that helps organizations manage issues of risk and complexity. Follow him on [Twitter](https://twitter.com/syslogictweets), and check out his [other writings](http://www.system-logic.com/commentary/).*  
 
 *Image by [Alexandre Dulaunoy](http://www.flickr.com/photos/adulau/)*
 

@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [criticality,complexity] 
 permalink: 
+redirect_from: "/commentary/posts/Managing the Criticality of Catastrophic Events15PR/"
 ---
 
 ![image alt text](/assets/images/Managing the Criticality of Catastrophic Events_images/image_0.jpg)

@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [controls and procedures,skepticism,electronic trading,complexity] 
 permalink: 
+redirect_from: "/commentary/posts/An Integrated Culture of Compliance1NMN/"
 ---
 
 ![image alt text](/assets/images/An Integrated Culture of Compliance_images/image_0.jpg)

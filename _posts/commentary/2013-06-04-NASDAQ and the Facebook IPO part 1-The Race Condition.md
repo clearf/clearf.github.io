@@ -1,9 +1,11 @@
 ---
 title: "NASDAQ and the Facebook IPO"
+subtitle: "The Race Condition"
 layout: post
 author: "Chris Clearfield and Steven Lofchie" 
 tags: [complexity,technology,NASDAQ] 
 permalink: 
+redirect_from: "/commentary/posts/NASDAQ and the Facebook IPO%3A The Race Condition1bKE/"
 ---
 
 ![image alt text](/assets/images/NASDAQ and the Facebook IPO part 1-The Race Condition_images/image_0.png)

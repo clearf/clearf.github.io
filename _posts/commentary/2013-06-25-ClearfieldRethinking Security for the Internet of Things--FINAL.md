@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [cybersecurity,skepticism] 
 permalink: 
+redirect_from: "/commentary/posts/Rethinking Security for the Internet of Things1dRf/"
 ---
 
 ![image alt text](/assets/images/ClearfieldRethinking Security for the Internet of Things--FINAL_images/image_0.jpg)

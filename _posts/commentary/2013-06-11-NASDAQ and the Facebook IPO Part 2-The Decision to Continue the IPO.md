@@ -1,9 +1,11 @@
 ---
 title: "NASDAQ and the Facebook IPO"
+subtitle: "Saving the IPO"
 layout: post
 author: "Chris Clearfield and Steven Lofchie" 
 tags: [complexity,technology,NASDAQ] 
 permalink: 
+redirect_from: "/commentary/posts/NASDAQ and the Facebook IPO%3A Saving the IPO1r8s/"
 ---
 
 ![image alt text](/assets/images/NASDAQ and the Facebook IPO Part 2-The Decision to Continue the IPO_images/image_0.jpg)

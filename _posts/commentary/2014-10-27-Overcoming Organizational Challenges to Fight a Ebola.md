@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [organizational structure,systemic risk,complexity] 
 permalink: 
+redirect_from: "commentary/posts/Overcoming%20Organizational%20Challenges%C2%A0to%20Fight%20Ebola15iz/"
 ---
 
 ![image alt text](/assets/images/Overcoming Organizational Challenges to Fight a Ebola_images/image_0.jpg)

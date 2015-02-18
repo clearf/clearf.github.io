@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield and András Tilcsik" 
 tags: [complexity,coupling,cybersecurity] 
 permalink: 
+redirect_from: "/commentary/posts/A Hacker’s Market1yxz/"
 ---
 
 ![image alt text](/assets/images/A Hackers Market_images/image_0.png)

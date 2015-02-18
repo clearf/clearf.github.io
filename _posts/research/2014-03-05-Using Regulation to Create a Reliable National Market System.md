@@ -6,6 +6,7 @@ category: research
 tags: [complexity,technology] 
 permalink: 
 pdf_path: "https://s3.amazonaws.com/content.system-logic.com/System+Logic+Memo+to+House+Financial+Services+Subcommittee+on+Capital+Markets.pdf"
+redirect_from: "/commentary/posts/Using Regulation to Create a Reliable National Market System1mFi/"
 ---
 
 <img class="research-header" src="/assets/images/Using Regulation to Create a Reliable National Market System_images/image_0.png"/>

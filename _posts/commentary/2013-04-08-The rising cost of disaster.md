@@ -4,6 +4,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [disasters,dynamics,supply chains] 
 permalink: 
+redirect_from: "/commentary/posts/The Rising Cost of Disaster1ywI/"
 ---
 
 ![image alt text](/assets/images/The rising cost of disaster_images/image_0.jpg)

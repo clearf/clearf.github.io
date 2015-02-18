@@ -4,6 +4,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [complexity,technology] 
 permalink: 
+redirect_from: "/commentary/posts/Failure%20and%20Punishment1Egr/"
 ---
 
 ![image alt text](/assets/images/Failure and Punishment_images/image_0.jpg)

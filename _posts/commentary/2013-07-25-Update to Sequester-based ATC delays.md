@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield and András Tilcsik" 
 tags: [air traffic control,dynamics,coupling,criticality] 
 permalink: 
+redirect_from: "/commentary/posts/The%20%28Minor%29%20Effect%20of%20Sequestration%20on%20Air%20Traffic%20Control1lbP/"
 ---
 
 ![image alt text](/assets/images/Update to Sequester-based ATC delays_images/image_0.jpg)

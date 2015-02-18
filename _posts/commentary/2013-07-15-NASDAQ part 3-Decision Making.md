@@ -1,9 +1,11 @@
 ---
 title: "NASDAQ and the Facebook IPO"
+subtitle: "The Decision"
 layout: post
 author: "Chris Clearfield and Steven Lofchie" 
 tags: [complexity,technology,NASDAQ] 
 permalink: 
+redirect_from: "/commentary/posts/NASDAQ and the Facebook IPO: The Decision13Yg/"
 ---
 
 ![image alt text](/assets/images/NASDAQ part 3-Decision Making_images/image_0.jpg)

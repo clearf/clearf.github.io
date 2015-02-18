@@ -4,6 +4,7 @@ layout: post
 author: "Chris Clearfield" 
 tags: [air traffic control,dynamics,coupling,criticality] 
 permalink: 
+redirect_from: "/commentary/posts/The (Imaginary%3F) Effect of Sequestration on Air Traffic Control1_Dg/"
 ---
 
 ![image alt text](/assets/images/Sequester-based ATC delays_images/image_0.jpg)

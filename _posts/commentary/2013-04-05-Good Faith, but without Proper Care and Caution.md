@@ -4,6 +4,7 @@ layout: post
 author: "System Logic Staff" 
 tags: [controls and procedures,simulation,maritime] 
 permalink: 
+redirect_from: "/commentary/posts/Good Faith%2C but without Proper Care and Caution11gs/"
 ---
 
 ![image alt text](/assets/images/Good Faith, but without Proper Care and Caution_images/image_0.jpg)
