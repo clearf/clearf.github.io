@@ -1,7 +1,7 @@
 ---
 title: "The Rising Cost of Disaster"
 layout: post
-author: "System Logic Staff" 
+author: "Chris Clearfield"
 tags: [disasters,dynamics,supply chains] 
 permalink: 
 redirect_from: "/commentary/posts/The Rising Cost of Disaster1ywI/"
