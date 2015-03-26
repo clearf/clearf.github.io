@@ -1,0 +1,43 @@
+---
+title: "Courting Catastrophic Failure"
+subtitle: "Will Managers Ever Learn?"
+layout: post
+author: "Chris Clearfield" 
+tags: [controls and procedures,skepticism,electronic trading,complexity] 
+permalink: 
+---
+
+![image alt text](/assets/images/Future Managers & Catastrophic Failures_images/image_0.jpg)
+
+From BP’s Deepwater Horizon disaster, to deadly component failures at Toyota and GM, to technological meltdowns at major stock market participants like Knight Capital (now KCG Holdings), Goldman Sachs, and NASDAQ, catastrophic failures have devastating effects on the environment, businesses, and customers. And the potential for failures of this kind is growing as both the complexity of our systems and the probability of extreme "trigger" events increase.  
+
+But thanks to decades of research, a large body knowledge exists today about the prevention and management of catastrophic failure in complex, uncertain environments. Research on normal accidents, predictable surprises, and dangerous cognitive biases in decision making have taught us about how complex systems can unexpectedly unravel and cascade uncontrollably toward disaster. There is also a great deal of useful research on potential interventions and countermeasures, such as building [high-reliability organizations](http://psycnet.apa.org/psycinfo/1999-02706-003), adding more [slack to our systems](http://press.princeton.edu/titles/6596.html), overcoming cognitive biases through [disciplined decision-making processes](https://hbr.org/2011/06/the-big-idea-before-you-make-that-big-decision), and [rethinking how we regulate complex systems, like electronic trading](http://www.system-logic.com/research/2014/03/05/Using%20Regulation%20to%20Create%20a%20Reliable%20National%20Market%20System.html).
+
+ 
+
+However, [as is often the case](http://www.businessweek.com/chapter/pfeffer.htm), while relevant knowledge does exist, it might not be used in practice. Do practitioners actually learn and implement insights from this rich and readily actionable research literature? An examination of the catastrophic incidents above seems to indicate that they are not. 
+
+What about future business leaders? Can existing insights from research be passed onto to current MBAs, people who will one day manage large, complex organizations—organizations in which the next major catastrophe might already be brewing?
+
+Some are skeptical. In *[The Dismal Science](http://www.hup.harvard.edu/catalog.php?isbn=9780674047228),* Harvard economist Stephen Marglin writes: "Generations of students have paid, and are still paying good money to the leading business schools of the world to learn how to apply probabilities consistently. I do not wish even to hint that students don’t get their money’s worth, but I am very sceptical that their ability to deal with uncertainty is much enhanced." And, of course, overconfidence and a lack of sensitivity to uncertainty create fertile ground for catastrophic failures. Yet, perhaps because [the cost of disaster is rising](http://www.system-logic.com/commentary/2013/04/08/The%20rising%20cost%20of%20disaster.html), there is increasing recognition that teaching a systemic and cognition-based perspective on catastrophes to future managers is vital.
+
+ 
+
+I recently visited the [Rotman School of Management](http://www.rotman.utoronto.ca/) at the University of Toronto to speak to MBA students about [Knight Capital’s trading meltdown](http://www.system-logic.com/commentary/2015/01/06/Preventing%20Crashes-Final%20Post.html) and [NASDAQ’s handling of the Facebook IPO](http://www.system-logic.com/commentary/2013/07/15/NASDAQ%20part%203-Decision%20Making.html) in a new course called *[Catastrophic Failure in Organizations](https://www.rotman.utoronto.ca/Degrees/MastersPrograms/MBAPrograms/FullTimeMBA/Program/Electives/StrategicManagement.aspx)*. The course, taught by my friend and collaborator [András Tilcsik](http://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Tilcsik.aspx), looks at several high-profile cases of catastrophic failure—from the Tenerife airport disaster and the Three Mile Island nuclear accident to the fall of Enron and BP’s Deepwater Horizon oil spill—and leverages the rich experiences of guest speakers like the former chief of major accident investigations at the National Transportation Safety Board as well as the school’s new dean, [Tiff Macklem](http://www.rotman.utoronto.ca/ProfessionalDevelopment/Executive-Programs/CoursesWorkshops/Faculty-and-Instructors/MacklemTiff.aspx), who previously served as Senior Deputy Governor of the Bank of Canada during the financial crisis. Unlike "anecdote-driven" scholarship, these speakers contribute to a rigorous systematic analysis of past accidents and meltdowns and present interventions that can reduce the risk of catastrophic failure. 
+
+ 
+
+Similar important initiatives exist in several other schools. Since 2007, [the former astronaut Jay Apt](http://en.wikipedia.org/wiki/Jerome_Apt) has been teaching MBA students at Carnegie Mellon’s Tepper School a course on *[Catastrophic Risk Analysis](http://tepper.cmu.edu/prospective-students/course-page/45977/catastrophic-risk-analysis)*. The goal is to help students understand, analyze, and manage low-probability but high-impact events in the presence of irreducible uncertainty. At Harvard, [Herman (Dutch) Leonard](http://www.hbs.edu/faculty/Pages/profile.aspx?facId=271872), who holds an appointment at both Harvard Business School and the Harvard Kennedy School, offers courses on enterprise risk management and crisis leadership. One MBA course, titled *[Enterprise Risk Management: Strategy and Leadership in the Face of Large-Scale Uncertainties](http://www.hbs.edu/coursecatalog/1518.html)*, is specifically designed for students who, over the course of their careers, will lead organizations that face large-scale risks, such as earthquakes, storms, terror incidents, or brand crises. On the research side, the Wharton School houses a [Risk Management and Decision Processes Center](http://www.wharton.upenn.edu/riskcenter/), which brings together scholars working to understand the management of potentially catastrophic events, particularly those that involve health, safety, or the environment.
+
+ 
+
+These initiatives represent an important first step. Yet at this time, the courses offered on these critical issues are typically second-year MBA electives, rather than part of the core MBA curriculum. Still, at the very least, such courses can highlight the [wicked problem](http://pubsonline.informs.org/doi/pdf/10.1287/mnsc.14.4.B141) of catastrophic risks, suggest some solutions, and legitimize this crucial topic as an area of study for future managers. 
+
+I believe that reducing catastrophic potential is in the hands of the managers who work on these wicked problems at organizations that drill for oil to those that mine bits for insight. The complexity of these systems means that regulators struggle to make an impact ([and may make things worse](http://harvardkennedyschoolreview.com/preventing-crashes-lessons-for-the-sec-from-the-airline-industry/)), and the increasing impact of failure means that firms can no longer be glib about the risk landscape in which they operate every day. 
+
+My hope is that these initiatives can do more than just break novel instructional ground.  As I developed my presentation for the Rotman MBAs, many of whom have substantial professional insights that they bring to the classroom, András wrote me about the ultimate goal for the course: "to instil some degree of meta-knowledge about the risk of catastrophic failures—knowledge about the limits of what we can predict and understand—and a sense of humility that goes along with that knowledge." I couldn’t agree more with this aspiration. As [Nassim Taleb and his coauthors](https://hbr.org/2009/10/the-six-mistakes-executives-make-in-risk-management) remind us, the risk of catastrophic failure lies not simply in our physical environment or in our technologies: “The biggest risk lies within us: We overestimate our abilities and underestimate what can go wrong.” Perhaps we can start to change that. 
+
+*[Chris Clearfield](http://www.system-logic.com/team/) is a principal at[ System Logic](http://www.system-logic.com/commentary/), an independent consulting firm that helps organizations manage issues of risk and complexity. Follow him on[ Twitter](https://twitter.com/syslogictweets), and check out his[ other writings](http://www.system-logic.com/commentary/).*
+
+*As originally published in[ Forbes.](http://www.forbes.com/sites/chrisclearfield/2015/03/26/courting-catastrophic-failure-will-managers-ever-learn/)*
+
