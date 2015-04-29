@@ -27,6 +27,7 @@ for file in *.md; do
   title=$( echo $header | awk -F '|' '{print $1}' | awk -F ':' '{print $1}')
   subtitle=$( echo $header | awk -F '|' '{print $1}' | awk -F ':' '{print $2}' | sed 's/^ *//')
   date=$( echo $header | awk -F '|' '{print $2}' | awk -F ' ' '{print $1}')
+  time=$( echo $header | awk -F '|' '{print $2}' | awk -F ' ' '{print $2}')
   author=$( echo $header | awk -F '|' '{print $3}')
   tags=$( echo $header | awk -F '|' '{print $4}' | sed 's/, */,/g')
 
@@ -61,6 +62,11 @@ permalink: ' \
   if [ ! -z "$subtitle" ]; then 
     sed -i '' -e '3i \
     subtitle: '"\"$subtitle\"" "$postfile"
+  fi
+
+  if [ ! -z "$time" ]; then 
+    sed -i '' -e '3i \
+    date: '"\"$date $time\"" "$postfile"
   fi
 
   echo "Posting $newfile"
