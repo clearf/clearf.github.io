@@ -2,6 +2,8 @@
 title: "Using Regulation to Create a Reliable National Market System"
 layout: research
 author: "System Logic Staff" 
+description: "An analysis submitted to the United States House of Representatives Financial Services Subcommittee on Capital Markets 
+for their hearing on Equity Market Structure and Regulation NMS."
 category: research
 tags: [complexity,technology] 
 permalink: 

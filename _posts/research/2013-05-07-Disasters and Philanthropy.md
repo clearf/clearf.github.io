@@ -5,7 +5,7 @@ subtitle: "How Mega-events and Natural Disasters Affect Corporate Philanthropy i
 U.S.Communities"
 description: "A rigorous academic exploration of how disasters, 
 mega-events, communities and corporate giving interact in unexpected ways."
-pdf_path: "http://ecommons.cornell.edu/bitstream/1813/36457/1/TilcsikMarquis2013.pdf"
+pdf_path: "https://s3.amazonaws.com/content.system-logic.com/TilcsikMarquis2013.pdf"
 redirect_from: "/commentary/posts/Disasters%20and%20Philanthropy1OlM/"
 ---
 
