@@ -10,6 +10,8 @@
           {% assign page_filename = node | downcase | replace: ' ', '_' %}
          {% if node == page.title %}
            {% assign css_class="class='active'" %}
+         {% elsif node == 'Blog' and page.title == "On Complexity" %}
+           {% assign css_class="class='active'" %}
          {% else %} 
            {% assign css_class="" %}
          {% endif %}
